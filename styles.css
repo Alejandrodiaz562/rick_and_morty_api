@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.title{
+    background-color: #242c3b;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    font-family: 'Delicious Handrawn', cursive;
+    background-color: #242c3b;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 20px 10px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.figure{
+    width: 300px;
+    height: 490px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px 30px 0 0;
+}
+
+.figcaption{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+   
+    padding: 10px 0;
+}
+
+.information{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.info{
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.navegation{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background: #100a1f;
+    width: 100%;
+    
+   
+}
+
+.navegation button{
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 10px;
+    text-align: center;
+    background: #241744;
+    border: none;
+    transition: 0.3s ease all;
+    color: wheat;
+}
+
+.navegation button:hover{
+    background-color: #137c32;;
+}
+
+
+
