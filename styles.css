@@ -3,32 +3,28 @@
 *{
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
-    
+    margin: 0; 
 }
 
-.title{
+body{
     background-color: #242c3b;
-    color: white;
-    text-align: center;
 }
 
 .container{
     font-family: 'Delicious Handrawn', cursive;
-    background-color: #242c3b;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    gap: 20px 10px;
-    padding: 20px;
-    margin-bottom: 50px;
+    display: flex;
+    justify-content:  center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 70px;
 }
 
 .figure{
-    width: 300px;
-    height: 490px;
-    background-color: aliceblue;
-    border-radius: 30px;
+   width: 20%;
+   height: 450px;
+   margin: 10px 20px;
+   background-color: white;
+   border-radius: 30px;
     
 }
 
@@ -87,5 +83,10 @@
     background-color: #137c32;;
 }
 
+@media (max-width: 400px){
+    .figure{
+        width: 75%;
+    }
+}
 
 
